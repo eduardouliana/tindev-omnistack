@@ -1,0 +1,8 @@
+yarn init -y
+yarn add express
+yarn add nodemon -D
+yarn add mongoose
+yarn add axios
+
+Programa útil para conexão com base de dados mongo: 
+MongoDB compass Community
