@@ -11,10 +11,10 @@ module.exports = {
             $and: [
                 //ne = Not Equal (Não pega o próprio usuário)
                 { _id: { $ne: user } },
-                //ni = Not In (Não pega os usuários que já tiver dado like)
-                { _id: { $ni: logedUser.likes } },
-                //ni = Not In (Não pega os usuários que já tiver dado dislike)
-                { _id: { $ni: logedUser.dislikes } },
+                //nin = Not In (Não pega os usuários que já tiver dado like)
+                { _id: { $nin: logedUser.likes } },
+                //nin = Not In (Não pega os usuários que já tiver dado dislike)
+                { _id: { $nin: logedUser.dislikes } },
             ],
         });
 
