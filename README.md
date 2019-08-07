@@ -1,4 +1,8 @@
 # tindev-omnistack
+* Projeto criado apartir da semana OmniStack da rocketSeat
+* Tinder para desenvolvedores hahaha
+
+<a href="https://codeclimate.com/github/eduardouliana/tindev-omnistack/maintainability"><img src="https://api.codeclimate.com/v1/badges/aefe3bd15da9278c085b/maintainability" /></a>
 
 # Módulos para serem instalados
 * yarn init -y
