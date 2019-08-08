@@ -18,3 +18,12 @@
 
 #Programa útil para conexão com base de dados mongo: 
 * MongoDB compass Community
+
+# como usar
+cd backend
+* yarn dev
+
+cd frontend
+* yarn star
+
+http://localhost:3000/
